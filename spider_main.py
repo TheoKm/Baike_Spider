@@ -26,7 +26,7 @@ class SpiderMain(object):
                 self.outputer.collect_data(new_data)
 
                 #set limit
-                if count == 10:
+                if count == 1000:
                     break
 
                 count = count +1
