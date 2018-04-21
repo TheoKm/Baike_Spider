@@ -23,7 +23,11 @@ class UrlManager(object):
         new_url = self.new_urls.pop()
         self.old_urls.add(new_url)
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new_url
+=======
+        return new_url
+>>>>>>> 3d10976de6f3354ea5b2d0c348dfa56e71834de6
 =======
         return new_url
 >>>>>>> 3d10976de6f3354ea5b2d0c348dfa56e71834de6
